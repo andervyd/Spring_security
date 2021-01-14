@@ -24,6 +24,7 @@
     <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
     <spring-security-web.version>5.4.1</spring-security-web.version>
     <spring-security-config.version>5.4.1</spring-security-config.version>
+    <spring-security-taglibs.version>5.4.1</spring-security-taglibs.version>
 
   </properties>
 
@@ -59,6 +60,12 @@
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-config</artifactId>
       <version>${spring-security-config.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-taglibs</artifactId>
+      <version>${spring-security-taglibs.version}</version>
     </dependency>
 
   </dependencies>
